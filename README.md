@@ -5,8 +5,8 @@ Ejercicios Unidad 1
 
 * Proyectos 2019-2020
 
-. capicua
-. sumas
+* - capicua
+* - sumas
 
 *******************************************************************
 * Abreviaturas de las carpetas contenidas en los repositorios DAM2:
