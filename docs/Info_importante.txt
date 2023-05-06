@@ -1,0 +1,7 @@
+Si queremos provocar que se escriba el fichero errorcapicua.txt, podemos quitar el archivo
+Capicua.java y escribir dentro lo siguiente:
+
+Error: no se ha encontrado o cargado la clase principal Capicua.Capicua
+Causado por: java.lang.ClassNotFoundException: Capicua.Capicua
+
+También podemos renombrarle para reproducir el error

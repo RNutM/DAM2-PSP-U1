@@ -24,10 +24,13 @@ public class Capicua {
 			}
 		}
 
-		if (cap) {// Si capicua es verdadero
+		if (cap && !n1.isBlank()) {// Si capicua es verdadero y n1 no está en blanco
 			System.out.println("Es capicua");
-		} else {// En caso contrario
+		} else if (cap == false) {// Si capicua es falso
 			System.out.println("No es capicua");
+		} else if (n1.isBlank()) {// Si n1 está en blanco
+			System.out.println("No se ha introducido ningún número o está en blanco");
 		}
+
 	}
 }

@@ -5,22 +5,17 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 
-public class LlamaCapicua {
+public class LlamaCapicuaArgs {
 
 	public static void main(String[] args) throws IOException {
 
 		File directorio = new File(".\\bin");
 
-		ProcessBuilder pb = new ProcessBuilder("java", "Capicua.Capicua");
+		ProcessBuilder pb = new ProcessBuilder("java", "Capicua.CapicuaArgs", "7867");
 		// Indicar donde estan los .class
 		pb.directory(directorio);
 		Process p = pb.start();
-
-		OutputStream os = p.getOutputStream();
-		os.write("78987\n".getBytes());// Aquí pongo el número a comprobar
-		os.flush();
 
 		InputStream is = p.getInputStream();
 		int c;
@@ -28,8 +23,6 @@ public class LlamaCapicua {
 			System.out.print((char) c);
 
 		is.close();
-
-		os.close();
 
 		// Leemos del flujo de error
 
