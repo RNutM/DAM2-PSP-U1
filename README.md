@@ -4,8 +4,12 @@ Ejercicios Unidad 1
 * IDE Eclipse
 
 * Proyectos 2019-2020
+
+. capicua
+. sumas
+
 *******************************************************************
-* Abreviaturas de las carpetas contenidas en los repositorios DAM1:
+* Abreviaturas de las carpetas contenidas en los repositorios DAM2:
 
 * AD - Acceso a Datos
 * DI - Desarrollo de Interfaces
