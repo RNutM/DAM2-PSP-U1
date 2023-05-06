@@ -1,4 +1,4 @@
-package Capicua;
+package capicua;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,7 +13,7 @@ public class LlamaCapicua {
 
 		File directorio = new File(".\\bin");
 
-		ProcessBuilder pb = new ProcessBuilder("java", "Capicua.Capicua");
+		ProcessBuilder pb = new ProcessBuilder("java", "capicua.Capicua");
 		// Indicar donde estan los .class
 		pb.directory(directorio);
 		Process p = pb.start();

@@ -1,0 +1,3 @@
+Introduce un número
+Introduce otro número
+La suma de 87 + 47 es: 134

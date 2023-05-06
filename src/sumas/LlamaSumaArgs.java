@@ -1,4 +1,4 @@
-package Capicua;
+package sumas;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,13 +6,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class LlamaCapicuaArgs {
+public class LlamaSumaArgs {
 
 	public static void main(String[] args) throws IOException {
 
 		File directorio = new File(".\\bin");
 
-		ProcessBuilder pb = new ProcessBuilder("java", "Capicua.CapicuaArgs", "7867");
+		ProcessBuilder pb = new ProcessBuilder("java", "sumas.SumaArgs", "6", "90");
 		// Indicar donde estan los .class
 		pb.directory(directorio);
 		Process p = pb.start();

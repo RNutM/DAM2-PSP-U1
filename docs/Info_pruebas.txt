@@ -1,0 +1,10 @@
+Si queremos provocar que se escribam los ficheros de error (errorcapicua.txt, errorsuma.txt), 
+podemos quitar los archivos Capicua.java o Suma.java y así veremos los siguiente dentro de los archivos:
+
+Error: no se ha encontrado o cargado la clase principal capicua.Capicua
+Causado por: java.lang.ClassNotFoundException: capicua.Capicua
+
+Error: no se ha encontrado o cargado la clase principal sumas.Suma
+Causado por: java.lang.ClassNotFoundException: sumas.Suma
+
+También podemos renombrarlos para reproducir el error

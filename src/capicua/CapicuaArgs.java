@@ -1,4 +1,4 @@
-package Capicua;
+package capicua;
 
 public class CapicuaArgs {
 

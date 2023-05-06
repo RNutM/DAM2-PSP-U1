@@ -1,4 +1,4 @@
-package Capicua;
+package capicua;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class CapicuaFicheros {
 
 		String w = System.getProperty("user.dir");
 		System.out.println("Mi ruta es: " + w);
-		ProcessBuilder pb = new ProcessBuilder("java", "Capicua.Capicua");
+		ProcessBuilder pb = new ProcessBuilder("java", "capicua.Capicua");
 
 		pb.directory(new File(".\\bin"));
 
